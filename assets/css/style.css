@@ -1,0 +1,145 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  } 
+  .image-block {
+    height: 600px;
+    width: 95%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    padding: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    border: 1px solid #fff;
+  }
+  
+  .button:hover {
+    border: 2px solid #fff;
+  }
+  
+  #carouselPhoto {
+    width: 80%; 
+    margin: auto;
+    margin-top: 50px;
+  }
+  #carouselPhoto .carousel-inner .carousel-item img {
+    width: 80%; 
+    margin: auto;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .photo {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .photo:hover img {
+    transform: scale(1.1);
+  }
+
+  .full-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .full-screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    
+  }
+
+
+#contactForm {
+  width: 50%; 
+  margin: 0 auto; 
+  padding: 50px; 
+  border: 1px solid #000000; 
+  border-radius: 5px; 
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; 
+  padding: 8px; 
+  margin-bottom: 10px; 
+  border-radius: 5px;
+  border: 1px solid #ccc; 
+}
+
+input[type="checkbox"] {
+  margin-right: 5px; 
+}
+
+input[type="submit"] {
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #007bff; 
+  color: white; 
+  cursor: pointer; 
+}
+
+@media (max-width: 768px) {
+  #contactForm {
+    width: 80%; 
+  }
+}
+.thankyou{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 120px;
+  color:#000000;
+  margin-top: 150px;
+}
+.firstphotographers{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
